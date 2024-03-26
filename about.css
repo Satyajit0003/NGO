@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(243, 240, 240);
+}
+
+hr{
+    width: 90%;
+    margin-left: 4rem;
+}
+/*navbar section*/
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+/*navbar logo*/
+.nav-logo-image{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 80px;
+    width: 100px;
+}
+/*navbar contents*/
+.nav-content{
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-content ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-content a:hover{
+    text-decoration: underline;
+}
+
+.donate a,.volunteer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*navbar buttons*/
+.nav-btns{
+    margin-left: 28%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.donate{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 110px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.volunteer{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 140px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-left: 1rem;
+}
+/*banner section*/
+.banner{
+    display: flex;
+}
+
+.banner-image{
+    background-image: url("JOf3QFEXEy5WGeHQHUnxwGUtCgND2Og65ocl00uu.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.banner-image h1{
+    color: white;
+    font-size: 4rem;
+    text-shadow: 5px 5px 2px black;
+    text-align: center;
+    margin-top: 12rem;
+}
+/*story section*/
+.story{
+    margin-top: 3rem;
+}
+/*heading of story,vision,mission,lifecycle,work*/
+.story-heading,
+.vision h2,
+.mission h2,
+.lifecycle h2,
+.work h2{
+    font-size: 3.1rem;
+    color: rgb(102, 246, 102);
+    letter-spacing: 2px;
+    padding-top: 1.1rem;
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+.story p{
+    text-align: center;
+    margin-top: 1rem;
+    letter-spacing: 1.5px;
+    line-height: 1.6rem;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.stories-image{
+    background-image: url("Screenshot\ \(49\).png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/*vision section*/
+.vision{
+    margin-top: 3rem;
+}
+
+.vision-box{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.vis-box{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    margin: 1rem;
+}
+
+.vis-box img{
+    height: 80px;
+    width: 80px;
+    margin: 1.3rem;
+}
+
+.vis-box p{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+/*mission section*/
+.mission{
+    margin-top: 3rem;
+}
+
+.mission-box{
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.mission-image img{
+    height: 80px;
+    width: 80px;
+    margin-right: 2rem;
+}
+
+.mission-box p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+/*lifecycle section*/
+.lifecycle{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.lc-box{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+.lc-box img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 3rem;
+    box-shadow: 3px 3px 18px rgb(182, 182, 247);
+}
+
+.lc-box img:hover{
+    box-shadow: 3px 3px 24px rgb(182, 182, 247);
+}
+/*work section*/
+.work-box{
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.work-box h3{
+    font-size: 2rem;
+    color: rgb(155, 247, 17);
+}
+
+.work-box2{
+    display: flex;
+}
+
+.box1-image img{
+    height: 80px;
+    width: 80px;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+.work-box2 p{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+}
+/*footer section*/
+.foot-box{
+    background-color: #181717;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+/*logo,content section*/
+.logo{
+    margin-top: 3rem;
+    margin-left: 8%;
+}
+.foot-logo{
+    background-image: url("floating-logo-1.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 140px;
+}
+
+.foot-first-logo p{
+    color: white;
+    width: 200px;
+    margin-top: 0.4px;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot-icon img{
+    height: 23px;
+    width: 23px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    opacity: 0.6;
+}
+
+.foot-icon img:hover{
+    opacity: 1;
+}
+/*contact section*/
+.contact{
+    color: white;
+    margin-left: 18%;
+}
+
+.contact h3{
+    margin-top: 2.5rem;
+    font-weight: 400;
+}
+
+.contact address{
+    line-height: 1.4rem;
+    margin-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact ul{
+    margin-top: 1.4rem;
+    list-style-type: none;
+    line-height:1.4rem ;
+}
+
+.contact span{
+    font-weight: 900;
+    margin-right: 4px;
+}
+/*quicklinks section*/
+.quicklink{
+    margin-left: 15%;
+}
+
+.quicklink h3{
+    margin-top: 3rem;
+    color: white;
+    font-weight: 400;
+}
+
+.quicklink a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8;
+}
+
+.quicklink ul{
+    list-style-type: none;
+    line-height: 1.4rem;
+    margin-top: 2rem;
+}

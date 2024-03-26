@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Donate</title>
+        <link rel="stylesheet" href="donate.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--jquery part-->
+        <!--when donate button clicked alert occurs-->
+        <script>
+            $(document).ready(function(){
+                $(".donate-btn").click(function(){
+                    alert("Thank you for your donation.")
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <!--header section-->
+        <header>
+            <nav>
+                <!--navbar logo-->
+                <div class="navbar">
+                    <div class="nav-logo">
+                        <div class="nav-logo-image"></div>
+                    </div>
+                    <!--navbar content-->
+                    <div class="nav-content">
+                        <ul>
+                            <li><a href="file:///E:/ProjectCsw/home.html">Home</a></li>
+                            <li><a href="file:///E:/ProjectCsw/about.html">About Us</a></li>
+                            <li><a href="file:///E:/ProjectCsw/gallery.html">Gallery</a></li>
+                            <li><a href="file:///E:/ProjectCsw/health.html">Health</a></li>
+                            <li><a href="file:///E:/ProjectCsw/education.html">Education</a></li>
+                    </ul>
+                </div>
+                <!--navbar buttons of volunteer and donate-->
+                <div class="nav-btns">
+                    <button type="button" class="donate"><a href="file:///E:/ProjectCsw/donate.html">DONATE</a></button>
+                    <button type="button" class="volunteer"><a href="file:///E:/ProjectCsw/volunteer.html">VOLUNTEER</a></button>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <!--main section-->
+        <main>
+            <!--banner section-->
+            <div class="banner">
+                <div class="banner-image">
+                    <img src="donate.jpg">
+                </div>
+            </div>
+            <!--heading-->
+            <h2>
+                YES! I WANT TO SUPPORT
+            </h2>
+            <!--form of donation-->
+            <div class="form-box">
+                <form action="/action">
+                    <div class="amount-box1">
+                        <label for="amount1"></label>
+                        <input type="radio" id="a1" name="amount1">
+                        <label for="a1">&#8377 3000</label>
+                        <input type="radio" id="a2" name="amount1">
+                        <label for="a2">&#8377 6000</label>
+                        <input type="radio" id="a3" name="amount1">
+                        <label for="a3">&#8377 15000</label>
+                    </div>
+    
+                    <label for="amount2"></label>
+                    <input type="number" id="amount2" placeholder="Please enter &#8377 amount" name="amount">
+    
+                    <div class="form-image">
+                        <img src="childs.webp">
+                    </div>
+                    <div class="form-heading">
+                        <h3>YOUR DONATION WILL HELP FOR THE EDUCATION AND HEALTH OF 1 CHILD</h3>
+                    </div>
+                    
+                    <div class="form-nation">
+                        <label for="nation"></label>
+                        <input type="radio" id="indian" name="nation">
+                        <label for="indian">INDIAN</label>
+                        <input type="radio" id="nri" name="nation">
+                        <label for="nri">NRI</label>
+                        <input type="radio" id="foreign" name="nation">
+                        <label for="foreign">FOREIGN NATIONAL</label>
+                    </div>
+    
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+    
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Enter Email" name="email">
+    
+                    <label for="phone"></label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter +91 Phone Number">
+    
+                    <label for="country"></label>
+                    <select name="country" id="country">
+                        <option>--Select Country--</option>
+                        <option value="india">India</option>
+                    </select>
+    
+                    <label for="state"></label>
+                    <select name="state" id="state">
+                        <option>--Select State--</option>
+                        <option value="a">A</option>
+                        <option value="b">B</option>
+                        <option value="c">C</option>
+                    </select>
+    
+                    <label for="city"></label>
+                    <input type="text" name="city" id="city" placeholder="City">
+    
+                    <label for="address"></label>
+                    <input type="text" name="address" id="address" placeholder="Address">
+    
+                    <label for="pincode"></label>
+                    <input type="number" name="pincode" id="pincode" placeholder="Pin Code">
+
+                    <label for="payment1"></label>
+                    <select name="payment1" id="payment1">
+                        <option>--Select Your Payment Method--</option>
+                        <option value="netbanking">Net Banking</option>
+                        <option value="upi">UPI</option>
+                        <option value="creditcard">Credit Card</option>
+                        <option value="debitcard">Debit Card</option>
+                    </select>
+
+                    <label for="payment2"></label>
+                    <input type="number" name="payment2" id="payment2" placeholder="Enter your Card no./UPI id">
+    
+                    <label for="pan"></label>
+                    <input type="text" name="pan" id="pan" placeholder="Pan No.">
+    
+                    <div class="agree-box">
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree">You agree that Chariti can reach uot to you through 
+                        Whatsapp/email/SMS/Phone to provide information of your donation, campaigns, recipt etc.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="donate-btn">DONATE</button>
+                </form>
+            </div>
+        </main>
+        <!--footer section-->
+        <footer>
+            <div class="foot-box">
+                <!--foot logo-->
+                <div class="logo">
+                    <div class="foot-first-logo">
+                        <div class="foot-logo"></div>
+                        <p>Towards the end of the 19th century, with the advent of the New Libersalism and the innovative.</p>
+                        <div class="foot-icon">
+                            <a href="#"><img src="icons8-facebook-50 (1).png"></a>
+                            <a href="#"><img src="icons8-instagram-50.png"></a>
+                            <a href="#"><img src="icons8-twitter-50 (1).png"></a>
+                            <a href="#"><img src="icons8-youtube-50.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--contact section-->
+                <div class="contact">
+                    <h3>CONTACT INFO</h3>
+                    <address>
+                        Box 3233 <br>
+                        1810 Kings Way <br>
+                        King Street, 5th Avenue, UK
+                    </address>
+                    <ul>
+                        <li><span>New York</span>:1800-2355-2356</li>
+                        <li><span>London</span>:020-1455-236-34</li>
+                    </ul>
+                </div>
+                <!--quicklinks sections-->
+                <div class="quicklink">
+                    <h3>QUICK LINKS</h3>
+                    <ul>
+                        <li><a href="#">About Our Organization</a></li>
+                        <li><a href="#">Become a Volunteer</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Sponsors</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    
+    </body>
+</html>

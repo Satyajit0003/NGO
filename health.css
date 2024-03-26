@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*nav bar*/
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+/*nav logo*/
+.nav-logo-image{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 80px;
+    width: 100px;
+}
+/*nav content contains home,about,gallery,education,health*/
+.nav-content{
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-content ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-content a:hover{
+    text-decoration: underline;
+}
+
+.donate a,.volunteer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*nav buttons of volunteer and donate*/
+.nav-btns{
+    margin-left: 28%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.donate{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 110px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.volunteer{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    height: 50px;
+    width: 140px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-left: 1rem;
+}
+/*banner section*/
+.banner-section{
+    display: flex;
+}
+/*banner image*/
+.banner-image{
+    background-image: url("339583243_677796887071523_4350881485792418668_n.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.banner-heading{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 3px 3px 7px rgb(0,0,0);
+    margin-top: 13rem;
+    word-spacing: 1rem;
+}
+/*content section*/
+.content-first{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(246, 241, 241);
+    margin-top: 3.6rem;
+}
+
+.content-first h2{
+    font-size: 3.1rem;
+    padding-top: 1.3rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.content-first p{
+    line-height:2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width: 94%;
+    margin-left: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.content-second{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(233, 226, 238);
+    margin-top: 3.6rem;
+}
+
+.content-second h2{
+    font-size: 3.1rem;
+    padding-top: 1.4rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.content-second p{
+    line-height:2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width: 94%;
+    margin-left: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+/*interventions section*/
+
+.interventions{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.interventions h2{
+    font-size: 3rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.a-box{
+    margin-left: 1rem;
+    display: flex;
+    width: 97%;
+}
+.a-box1,.a-box2,.a-box3,.a-box4{
+    width: 25%;
+}
+
+#panel1,#flip1,
+#panel2,#flip2,
+#panel3,#flip3,
+#panel4,#flip4{
+        padding: 10px;
+        text-align: left;
+        border: none;
+}
+
+#flip1{
+    background-color: rgb(246, 231, 176);
+}
+#flip2{
+    background-color: rgb(177, 247, 175);
+}
+#flip3{
+    background-color: rgb(242, 180, 242);
+}
+#flip4{
+    background-color: rgb(180, 251, 251);
+}
+
+#panel1,#panel2,#panel3,#panel4{
+        padding: 30px;
+        display: none;
+}
+
+#flip1,#flip2,#flip3,#flip4{
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.iv-box{
+    display: flex;
+}
+
+.iv-image img{
+    height: 60px;
+    width: 60px;
+    padding: 0.2rem;
+    margin-left: 18px;
+}
+
+.iv-box p{
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    line-height: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*focus section*/
+.focus{
+    margin-top: 3rem;
+}
+
+.focus h2{
+    font-size: 3.1rem;
+    margin-left: 3rem;
+}
+
+.focus-image img{
+    height: 500px;
+    width: 1000px;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+/*reach section*/
+.reach{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: rgba(2245, 240, 230, 0.551);
+    height: 400px;
+    width: 100%;
+}
+
+.reach-box{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px rgb(11, 10, 10);
+    margin-left: 3rem;
+}
+
+.reach h2{
+    font-size: 2.2rem;
+    margin-left: 2rem;
+    
+}
+
+.reach-box img{
+    height: 150px;
+    width: 150px;
+}
+
+.reach-box p{
+    font-size: 1rem;
+    margin-top: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+/*reach image section*/
+.village{
+    margin-left: 1rem;
+}
+
+.projects{
+    margin-left: 2rem;
+}
+
+.states{
+    margin-left: 2.9rem;
+}
+
+.districts{
+    margin-left: 1.3rem;
+}
+
+.reach-box span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.village span,.districts span{
+    margin-left: 2.2rem;
+}
+/*stories section*/
+.stories{
+    margin-top: 4rem;
+    height: 550px;
+    width: 100%;
+    background-color: rgb(216, 240, 216);
+}
+
+.stories-box{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    gap: 2rem;
+}
+
+.stories h2{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+
+.stories-box1{
+    height: 320px;
+    width: 365px;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 9px;
+}
+
+.sb-image img{
+    height: 150px;
+    width: 150px;
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+}
+
+.sb-content{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.sb-content h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.sb-content p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+/*health section*/
+.health{
+    margin-top: 3rem;
+    border: none;
+    background-color: rgb(149, 240, 11);
+    height: 50px;
+    width: 430px;
+    margin-left: 33%;
+}
+
+.health a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1.4rem;
+}
+/*foot section*/
+.foot-box{
+    background-color: #181717;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.logo{
+    margin-top: 3rem;
+    margin-left: 8%;
+}
+.foot-logo{
+    background-image: url("floating-logo-1.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 140px;
+}
+
+.foot-first-logo p{
+    color: white;
+    width: 200px;
+    margin-top: 0.4px;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot-icon img{
+    height: 23px;
+    width: 23px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    opacity: 0.6;
+}
+
+.foot-icon img:hover{
+    opacity: 1;
+}
+/*contact section*/
+.contact{
+    color: white;
+    margin-left: 18%;
+}
+
+.contact h3{
+    margin-top: 2.5rem;
+    font-weight: 400;
+}
+
+.contact address{
+    line-height: 1.4rem;
+    margin-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact ul{
+    margin-top: 1.4rem;
+    list-style-type: none;
+    line-height:1.4rem ;
+}
+
+.contact span{
+    font-weight: 900;
+    margin-right: 4px;
+}
+/*quicklinks section*/
+.quicklink{
+    margin-left: 15%;
+}
+
+.quicklink h3{
+    margin-top: 3rem;
+    color: white;
+    font-weight: 400;
+}
+
+.quicklink a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8;
+}
+
+.quicklink ul{
+    list-style-type: none;
+    line-height: 1.4rem;
+    margin-top: 2rem;
+}
+
+
+
+
